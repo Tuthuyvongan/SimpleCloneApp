@@ -1,5 +1,4 @@
-# SimpleCloneApp
-# Using Google MLKit
+# SimpleCloneApp use Google MLKit
  #Feature:
 + Image labeling
 + OCR Text
