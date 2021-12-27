@@ -123,24 +123,6 @@ open class BarcodeActivity : AppCompatActivity() {
         cameraExecutor.shutdown()
     }
 
-//    private fun allPermissionsGranted() = REQUIRED_PERMISSIONS.all {
-//        ContextCompat.checkSelfPermission(
-//            baseContext, it) == PackageManager.PERMISSION_GRANTED
-//    }
-//
-//    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
-//        if (requestCode == REQUEST_CODE_PERMISSIONS) {
-//            if (allPermissionsGranted()) {
-//                startCamera()
-//            } else {
-//                Toast.makeText(this,
-//                        "Permissions not granted by the user.",
-//                        Toast.LENGTH_SHORT).show()
-//                finish()
-//            }
-//        }
-//    }
-
     private fun startImageLabeling(){
         imageAnalysis.setAnalyzer(
                 ContextCompat.getMainExecutor(this),
