@@ -20,7 +20,7 @@
             android:id="@+id/text_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello! This is a OCR app"
+            android:text="Hello! This is an OCR app"
             android:textColor="@color/black"
             android:textSize="22sp" />
     </ScrollView>
