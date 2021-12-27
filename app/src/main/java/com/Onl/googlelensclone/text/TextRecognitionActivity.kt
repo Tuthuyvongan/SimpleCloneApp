@@ -1,4 +1,4 @@
-package com.sachin.googlelensclone.text
+package com.Onl.googlelensclone.text
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -13,7 +13,7 @@ import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.sachin.googlelensclone.R
+import com.Onl.googlelensclone.R
 import kotlinx.android.synthetic.main.activity_barcode.*
 import kotlinx.android.synthetic.main.activity_text_recognition.*
 import java.util.concurrent.ExecutorService

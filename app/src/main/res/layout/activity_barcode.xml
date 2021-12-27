@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000666"
-    tools:context=".barcode.BarcodeActivity">
+    tools:context="com.Onl.googlelensclone.barcode.BarcodeActivity">
 
     <Button
         android:id="@+id/btnLabelScaner"

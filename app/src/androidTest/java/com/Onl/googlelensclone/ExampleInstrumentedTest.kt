@@ -1,4 +1,4 @@
-package com.sachin.googlelensclone
+package com.Onl.googlelensclone
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

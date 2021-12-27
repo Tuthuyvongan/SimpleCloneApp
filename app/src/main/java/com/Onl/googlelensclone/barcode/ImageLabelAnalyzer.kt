@@ -1,16 +1,12 @@
-package com.sachin.googlelensclone.barcode
+package com.Onl.googlelensclone.barcode
 
 import android.annotation.SuppressLint
 import android.util.Log
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.label.ImageLabeling
 import com.google.mlkit.vision.label.defaults.ImageLabelerOptions
-import java.util.*
 
 var labelDone ="unknown"
 var labelAcc:Float=1.0f
@@ -47,8 +43,8 @@ class ImageLabelAnalyzer: ImageAnalysis.Analyzer {
                             Value = ${label.confidence}
                         """.trimIndent()
                             )
-                            labelDone=label.text
-                            labelAcc=label.confidence
+                            labelDone =label.text
+                            labelAcc =label.confidence
                         }
 
                     }

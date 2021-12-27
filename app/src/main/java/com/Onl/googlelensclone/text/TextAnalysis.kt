@@ -1,4 +1,4 @@
-package com.sachin.googlelensclone.text
+package com.Onl.googlelensclone.text
 
 import android.annotation.SuppressLint
 import android.util.Log

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sachin.googlelensclone">
+    package="com.Onl.googlelensclone" >
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -15,19 +15,25 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/icon_main"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GoogleLensClone">
-        <activity android:name=".text.TextRecognitionActivity" />
-        <activity android:name=".barcode.BarcodeActivity" />
-        <activity android:name=".OptionsActivity" />
-        <activity android:name=".MainActivity">
-
+        android:theme="@style/Theme.GoogleLensClone" >
+        <activity android:name="com.Onl.googlelensclone.text.TextRecognitionActivity" />
+        <activity android:name="com.Onl.googlelensclone.barcode.BarcodeActivity" />
+        <activity android:name="com.Onl.googlelensclone.OptionsActivity" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"/>
+        <activity android:name="com.Onl.googlelensclone.MainActivity" >
         </activity>
-        <activity android:name=".SplashScreen" android:theme="@style/Splash">
+        <activity
+            android:name="com.Onl.googlelensclone.text.OCRTextActivity"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.Onl.googlelensclone.SplashScreen"
+            android:theme="@style/Splash" >
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data

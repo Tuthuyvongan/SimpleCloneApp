@@ -1,4 +1,4 @@
-package com.sachin.googlelensclone
+package com.Onl.googlelensclone
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,7 +11,7 @@ class SplashScreen:AppCompatActivity(){
 
         val time:Long =2000
         Handler().postDelayed(Runnable {
-            startActivity(Intent(SplashScreen@this,MainActivity::class.java))
+            startActivity(Intent(SplashScreen@this, MainActivity::class.java))
             finish()
         },time)
 

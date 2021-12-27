@@ -1,4 +1,4 @@
-package com.sachin.googlelensclone.barcode
+package com.Onl.googlelensclone.barcode
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -12,7 +12,7 @@ import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.sachin.googlelensclone.R
+import com.Onl.googlelensclone.R
 import kotlinx.android.synthetic.main.activity_barcode.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
@@ -21,7 +21,7 @@ open class BarcodeActivity : AppCompatActivity() {
 
     private lateinit var cameraExecutor: ExecutorService
 
-    private val imageAnalyzer: ImageAnalysis.Analyzer =ImageLabelAnalyzer()
+    private val imageAnalyzer: ImageAnalysis.Analyzer = ImageLabelAnalyzer()
     private var imageAnalysis = ImageAnalysis.Builder()
         .setImageQueueDepth(ImageAnalysis.STRATEGY_BLOCK_PRODUCER)
         .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)

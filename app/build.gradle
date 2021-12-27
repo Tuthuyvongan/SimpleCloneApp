@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.sachin.googlelensclone"
+        applicationId "com.Onl.googlelensclone"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -46,6 +46,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.3'
+    implementation 'com.google.android.gms:play-services-vision:19.0.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
     dependencies {
 
         // CameraX core library using the camera2 implementation
