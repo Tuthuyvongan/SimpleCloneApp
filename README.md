@@ -1,8 +1,8 @@
 # SimpleCloneApp use Google MLKit
-SDKLibrary:
+1. SDKLibrary:
 + Google MLKit: https://developers.google.com/ml-kit/vision/
-Library:
+2. Library:
 + Android Image Cropper: https://github.com/CanHub/Android-Image-Cropper
-Feature:
+3. Feature:
 + Image labeling
 + OCR Text
