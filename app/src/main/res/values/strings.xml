@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OCR App</string>
+    <string name="app_name">Lens App</string>
     <string name="start_scanning">Start Scanning</string>
     <string name="label">label</string>
     <string name="start_teext_recognition">Start Teext Recognition</string>

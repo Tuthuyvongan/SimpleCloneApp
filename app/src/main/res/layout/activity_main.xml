@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e8e4f3"
     tools:context="com.Onl.googlelensclone.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="580dp"
+        android:layout_height="582dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018"
+        app:layout_constraintVertical_bias="0"
         app:srcCompat="@drawable/background_intro" />
 
     <ImageView
@@ -35,7 +36,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Google Lens"
+        android:text="Lens App"
         android:textStyle="bold"
         android:textSize="60sp"
         android:textColor="#000000"
@@ -51,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="This is an OCR App"
         android:textColor="#000000"
-        android:textSize="25sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
